@@ -30,17 +30,28 @@ let freindsPets= 0;
 console.log("my friends have", freindsPets, "pets")
 // 11 - Add two pets to your `pets` variable
 pets +=  2;
-console.log("There are ",pets, " pets at my brothers house")
+console.log("There are",pets, "pets at my brothers house")
 // 12 - Create a constant variable called `allowedPets` and set it to a number value of your choice
 const allowedPets = 10
 console.log("there cannot be more than",allowedPets, "animals in the home")
 // 13 - Create a conditional: if adventurous is true, console log "Adventures are great!", 
 // if it's not true, console log "How about we stay home?"
-const 
+if (adventurous){
+    console.log("Adventures are great!")
 
+}
+else{
+    console.log("How about we stay home?")
+
+}
+//changing the value for luckyNumber to 2. changed adventerous to true
+adventurous = true
+luckyNumber = 2
 // 14 - Create a compound conditional: if luckyNumber is 2 and adventurous is true,
 // console log "Roll the dice!"
-
+if (luckyNumber === 2 && adventurous){
+    console.log("Roll the dice!")
+}
 // 15 - Write a conditional that console logs "I can have more pets!" 
 //if the value of `pets` is less than the value of `allowedPets`,
 // console logs "I have enough pets" if the value of `pets` is equal to the value of `allowedPets`,
